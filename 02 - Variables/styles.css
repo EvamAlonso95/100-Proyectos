@@ -1,0 +1,14 @@
+/* Root representa todo el documento html */
+:root {
+    --mi-variable: red;
+    --fuente: Arial, Verdana;
+}
+
+h1 {
+    color: var(--mi-variable);
+}
+
+p,
+a {
+    font-family: var(--fuente);
+}
