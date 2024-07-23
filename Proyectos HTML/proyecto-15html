@@ -1,0 +1,33 @@
+<!-- 
+ Enunciado:
+ Crea un párrafo que tenga una imagen opcional, la imagen deberá tener un texto opcional, 600px de ancho y 400px de alto
+ 
+ -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 15 - Eva Alonso</title>
+</head>
+
+<body>
+    <h1>Proyecto 15</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias amet totam deleniti reiciendis distinctio
+        nobis quo hic officiis voluptatem, in nihil architecto ab rem facere voluptatum repellendus cupiditate!
+        Pariatur, molestiae?
+        <!-- Se utiliza para meter cualquier tipo de contenido que sea una figura: img, diagramas -->
+    <figure>
+        <img src="../Recursos/recursos-proyectos-html/img/bmw-m50.jpg" alt="Coche BMW M50 azul" height="400px">
+        <!-- Permite agrupar el text con la figura, es una descripción de figure -->
+        <figcaption>
+            BMW M50 AZUL
+        </figcaption>
+    </figure>
+    </p>
+</body>
+
+</html>
