@@ -1,0 +1,52 @@
+<!-- 
+ Enunciado:
+ Crea un formulario con un campo de tipo busqueda, teléfono, hora, url, barra de progreso, lista de datos, submit y reset
+Los campos tienen que tener un label
+  -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 23 - Eva Alonso</title>
+  </head>
+  <body>
+    <h1>Formulario proyecto 23</h1>
+    <form action="">
+        <label for="busqueda">Busqueda:</label>
+        <input type="search" name="busqueda" id="busqueda">
+        <br>
+        <br>
+        <label for="telefono">Teléfono</label>
+        <input type="tel" name="telefono" id="telefono">
+        <br>
+        <br>
+        <label for="hora">Hora:</label>
+        <input type="time" name="hora" id="hora">
+        <br>
+        <br>
+        <label for="url">Enlace:</label>
+        <input type="url" name="url" id="url">
+        <br>
+        <br>
+        <label for="file">Barra de progreso</label>
+        <progress id="file" value="32" max="100"> 32% </progress>
+        <br>
+        <br>
+        <label for="lista">Lista de datos:</label>
+        <input list="lista" name="lista"/>
+        <datalist id="lista">
+            <option value="datos">Dato 1</option>
+            <option value="datos">Dato 2</option>
+            <option value="datos">Dato 3</option>
+            <option value="datos">Dato 4</option>
+        </datalist>
+        <br>
+        <br>
+        <input type="submit" value="Enviar formulario">
+        <input type="reset" value="Resetear formulario">
+
+    </form>
+  </body>
+  </html>

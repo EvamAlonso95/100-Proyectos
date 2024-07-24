@@ -1,0 +1,25 @@
+<!-- 
+ Enunciado:
+ Crea un formulario con un campo de tipo texto con estas características:
+ - Debe ser obligatorio
+ - Minimo se pueden introducir 3 caracteres y un máximo 10
+ - Solo podrás meter espacios y letras de A-Z en minusculas y mayusculas
+  -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 24 - Eva Alonso</title>
+</head>
+<body>
+    <h1>Formulario proyecto 24</h1>
+    <form action="">
+        <label for="texto">Introduce la información</label>
+        <input type="text" name="texto" id="texto" required minlength="3" maxlength="10" pattern="^[a-zA-Z\s]*$">
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
