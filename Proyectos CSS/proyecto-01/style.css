@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Creación de la animación */
+@keyframes botar{
+    /* Posición natural - por defecto */
+    0%{
+        transform: translateY(-120%);
+    }
+
+    /* Cuando acabe la animación */
+    50%{
+        transform: translateY(0%);
+    }
+
+    100%{
+        transform: translateY(-120%);
+    }
+}
+
+.navbar__menu{
+    
+    /* Lo traslada en el eje Y (hacia arriba) -100% si fuera en positivo lo mueve hacia abajo en el eje Y */
+    transform: translateY(-100%);
+    /* -- Animación -- */
+    /* Nombre de la animación */
+    animation-name: botar;
+    /* Duración de la animación */
+    animation-duration: 3s;
+    /* Cada cuanto se ejecuta la animación */
+    animation-iteration-count:infinite ;
+}
+
+
+.menu__item{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+.item__link{
+    text-decoration: none;
+
+}

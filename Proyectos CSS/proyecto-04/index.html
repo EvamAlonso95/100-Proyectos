@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/28e986ba1e.js" crossorigin="anonymous"></script>
+    <title>Proyecto 04 CSS - Eva Alonso</title>
+</head>
+
+<body>
+    <div class="contenedor__total">
+        <header class="contenedor__header">
+            <nav>
+                <div class="header__logo">
+                    <figure class="logo">
+                        <i class="fa-solid fa-language"></i>
+                    </figure>
+                    <h4 class="header__logo--traductor">Traductor</h4>
+                </div>
+                <div class="header__search">
+                    <form action="#">
+
+                        <div class="search__group">
+                            <input type="search" placeholder="Introduce una palabra">
+                            <figure class="search__logo">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </figure>
+                        </div>
+
+                        <select name="language" id="language">
+                            <option value="español">Español</option>
+                            <option value="ingles">Inglés</option>
+                            <option value="frances">Francés</option>
+                        </select>
+                    </form>
+
+                </div>
+            </nav>
+        </header>
+
+        <main class="contenedor__main">
+            <div class="main__palabra">
+                <h2 class="palabra">Ordenador</h2>
+                <figure class="palabra__boton">
+                    <i class="fa-solid fa-circle-play"></i>
+                </figure>
+            </div>
+            <div class="main__traducion">
+
+                <div class="title">
+
+                    <hr class="hrLine">
+                    <h4 class="traduccion__title">Traducción</h4>
+                </div>
+
+                <ul class="traduccion__concepts">
+                    <li class="concepts__definicion">
+                        <p><span>Ordenador:</span> Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipisicing elit. Labore accusantium vero perspiciatis vel doloribus obcaecati.</p>
+                    </li>
+                    <li class="concepts__definicion">
+                        <p><span>Ordenador compatible:</span> Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Labore accusantium vero perspiciatis vel doloribus obcaecati.
+                        </p>
+                    </li>
+                    <li class="concepts__definicion">
+                        <p><span>Ordenador personal:</span> Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Labore accusantium vero perspiciatis vel doloribus obcaecati.
+                        </p>
+                    </li>
+                    <li class="concepts__definicion">
+                        <p><span>Ordenador portatil:</span> Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Labore accusantium vero perspiciatis vel doloribus obcaecati.
+                        </p>
+                    </li>
+                </ul>
+                <div class="traducion__sinonimos">
+                    <p><span class="sinonimos__title">Sinónomos</span>: <span>Computador
+                            Procesadora
+                            Computadora</span></p>
+                </div>
+            </div>
+
+        </main>
+
+
+
+        <footer>
+            <p>Todos los derechos reservados a Eva Alonso &copy;</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
