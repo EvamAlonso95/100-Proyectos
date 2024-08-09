@@ -1,0 +1,13 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/opensans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+h1 {
+    font-family: "Roboto";
+    font-weight: 800;
+}
+
+h3 {
+    font-family: OpenSans;
+}

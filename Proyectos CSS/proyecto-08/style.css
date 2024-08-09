@@ -1,0 +1,162 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebeff5;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+
+    /* Centrado en el centro de la página */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__title {
+    color: #e07072;
+    font-size: 1.4rem;
+}
+
+.layout__targets {
+    display: flex;
+    flex-direction: row;
+    min-height: 40%;
+    gap: 2px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #4d4f64;
+
+
+}
+
+.layout__target {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* align-items: center; */
+    text-align: center;
+
+    border-radius: 1rem;
+    background-color: #fff;
+    padding: 2rem;
+    transition: all 300ms ease-in;
+    margin-top: 1.3rem;
+    cursor: pointer;
+}
+
+.layout__target:hover {
+    background-color: #e07072;
+    color: #fff;
+    transform: scale(1.1);
+
+    .target__button {
+        background-color: #fff;
+        color: #e07072;
+    }
+
+
+}
+
+
+
+.target__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% + 0.7rem);
+    border-bottom: 1px solid #bcbcbc;
+
+
+}
+
+.item__price {
+
+    margin-top: 1rem;
+    font-size: 3rem;
+    margin-bottom: 1.3rem;
+
+
+}
+
+.target_item {
+    width: calc(100% - 0.7rem);
+    height: auto;
+    padding: 0.8rem;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.target__button {
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    padding: 1rem;
+
+    background-color: #e07072;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 300ms ease-in;
+}
+
+
+
+
+
+.layout__checkbox {
+    display: flex;
+    margin-top: 1.5rem;
+
+}
+
+.layout__checkbox input {
+    display: none;
+    position: absolute;
+}
+
+.checkbox__label span {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+
+    background-color: #4d4f64;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    top: 8px;
+    right: -10px;
+
+}
+
+
+
+.checkbox__label span::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-color: #bcbcbc;
+    border-radius: 30px;
+    transform: scale(0.8);
+    transition: 0.5s;
+
+}
+
+.checkbox__label input:checked~span::after {
+
+    background-color: #fff;
+    transform: scale(0.8) translate(36px);
+}
+
+.checkbox__label input:checked~span {
+    background-color: #e07072;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Proyecto 06 de CSS</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__tittle">
+            <h1>Correo temporal</h1>
+        </div>
+        <div class="container__temp-email">
+            <!-- Es que no es un input!! Solo muestra texto -->
+            <input type="email" class="temp-email__input" placeholder="eva@tempr.com">
+            <i class="fa-solid fa-copy"></i>
+        </div>
+
+        <div class="container__main">
+            <form action="#" class="main__form">
+                <div class="form__text">
+                    <p>Longuitud</p>
+                    <p class="text__number">4</p>
+                </div>
+
+                <input type="range" class="form__range">
+
+                <div class="form__checkbox">
+                    <div class="checbox__value">
+                        <input type="checkbox" class="letras" id="letras">
+                        <label for="letras">Con letras</label>
+                    </div>
+                    <div class="checbox__value">
+
+                        <input type="checkbox" class="numeros" id="numeros">
+                        <label for="numeros">Con números</label>
+                    </div>
+                    <div class="checbox__value">
+                        <input type="checkbox" class="simbolos" id="simbolos">
+                        <label for="simbolos">Con símbolos</label>
+
+                    </div>
+
+                    <div class="checbox__value">
+                        <input type="checkbox" class="mayusculas" id="mayusculas">
+                        <label for="mayusculas">Con mayúsculas</label>
+                    </div>
+
+                </div>
+
+                <div class="form__btns">
+                    <input type="text" class="btns__personalizado" placeholder="Personalizado">
+                    <input type="submit" class="btns__submit" value="CREAR">
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

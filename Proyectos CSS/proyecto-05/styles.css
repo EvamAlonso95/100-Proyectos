@@ -1,0 +1,30 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+
+#principal-tittle {
+    color: #fff;
+    background-color: #303030;
+    font-size: 34px;
+    padding: 17px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.articulo {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.subtittle {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+}

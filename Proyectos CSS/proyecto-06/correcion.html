@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 06 CSS</title>
+    <link rel="stylesheet" href="asset/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="asset/css/reset.css">
+    <link rel="stylesheet" href="correcion.css">
+
+</head>
+
+<body>
+    <div class="layout">
+        <main class="layout__main">
+            <h1 class="main__title">Correo temporal</h1>
+
+            <div class="main__generate">
+                <p class="generate__mail">victor@temp.com</p>
+                <i class="fa-solid fa-copy generate__icon"></i>
+            </div>
+
+            <form action="#" class="main__form">
+                <div class="form__slider">
+                    <div class="control__title">
+                        <span class="control__text">Longitud</span>
+                        <span class="control__number">4</span>
+                    </div>
+
+                    <input type="range" value="4" min="1" max="10" class="control__range">
+                </div>
+
+                <div class="form__control">
+                    <input type="checkbox" class="control__checbox" id="letters">
+                    <label for="letters" class="control__label">Con letras</label>
+
+                </div>
+
+                <div class="form__control">
+                    <input type="checkbox" class="control__checbox" id="numbers">
+                    <label for="numbers" class="control__label">Con números</label>
+
+                </div>
+
+                <div class="form__control">
+
+                    <input type="checkbox" class="control__checbox" id="sym">
+                    <label for="sym" class="control__label">Con símbolos</label>
+
+                </div>
+
+                <div class="form__control">
+
+                    <input type="checkbox" class="control__checbox" id="may">
+                    <label for="may" class="control__label">Con mayúsculas</label>
+                </div>
+
+                <div class="form__control">
+                    <input type="text" class="control__input" placeholder="personalizado">
+                </div>
+
+                <input type="submit" class="form__submit" value="Crear">
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
