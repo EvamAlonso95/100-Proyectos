@@ -1,0 +1,20 @@
+.caja {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+#caja-azul {
+    background-color: lightblue;
+}
+
+#caja-marron {
+    background-color: burlywood;
+}
