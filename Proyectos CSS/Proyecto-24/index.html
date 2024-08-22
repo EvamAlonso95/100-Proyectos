@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+NSW:wght@100..400&family=Roboto&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Proyecto 24 CSS</title>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="layout__conteiner">
+
+            <main class="layout__main">
+                <h1 class="main__title">Registro</h1>
+                <h2 class="main__subtitle">Crea tu cuenta para poder seguir la compra</h2>
+
+                <form action="#" class="main__form">
+                    <label class="form__label" for="form__name">Nombre</label>
+                    <input type="text" class="form__input" id="form__name" placeholder="Introduce tu nombre" required>
+
+                    <label class="form__label" for="form__secondName">Apellidos</label>
+                    <input type="text" class="form__input" id="form__secondName" placeholder="Introduce tus apellidos"
+                        required>
+
+
+                    <label class="form__label" for="form__mail">Email</label>
+                    <input type="email" class="form__input" id="form__mail"
+                        placeholder="Introduce tu correo electrónico" required>
+
+                    <label class="form__label" for="form__date">Fecha de nacimiento</label>
+                    <input type="date" class="form__input" id="form__date" required>
+
+                    <label class="form__label" for="form__password">Contraseña</label>
+                    <input type="password" class="form__input" id="form__password" placeholder="Introduce tu contraseña"
+                        required>
+
+                    <input type="submit" class="form__submit" value="Siguiente">
+                </form>
+            </main>
+
+            <aside class="layout__aside">
+                <div class="aside__container">
+                    <div class="container__step">
+                        <div class="step__numb">
+                            1
+                        </div>
+                        <div class="step__texts">
+                            <p class="text__numb">Paso 1</p>
+                            <h4 class="text__desciption">Crea tu cuenta</h4>
+                        </div>
+                    </div>
+
+                    <div class="container__step">
+                        <div class="step__numb">
+                            2
+
+                        </div>
+                        <div class="step__texts">
+                            <p class="text__numb">Paso 2</p>
+                            <h4 class="text__desciption">Dirección</h4>
+                        </div>
+
+                    </div>
+
+                    <div class="container__step">
+                        <div class="step__numb">
+                            3
+                        </div>
+                        <div class="step__texts">
+                            <p class="text__numb">Paso 3</p>
+                            <h4 class="text__desciption">Forma de pago</h4>
+                        </div>
+
+                    </div>
+
+                    <div class="container__step">
+                        <div class="step__numb">
+                            4
+                        </div>
+                        <div class="step__texts">
+                            <p class="text__numb">Paso 4</p>
+                            <h4 class="text__desciption">Confirmación</h4>
+                        </div>
+
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+
+</html>

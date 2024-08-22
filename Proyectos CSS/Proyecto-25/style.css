@@ -1,0 +1,110 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.layout__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.main__title {
+    margin-bottom: 2rem;
+    letter-spacing: 0.5rem;
+    text-decoration: underline overline;
+}
+
+
+.main__hidden {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    text-align: center;
+
+}
+
+.galery__overlay {
+    height: 25rem;
+    width: 25rem;
+    color: black;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.galery__img {
+    height: 25rem;
+    cursor: pointer;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+
+
+.overlay__text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 0.5rem;
+    transition: all 500ms ease-in;
+    padding: 1rem;
+
+
+
+
+}
+
+.overlay__text--1 {
+    background-color: #4a54ba;
+    top: 0;
+    left: calc(0px - 100%);
+    justify-content: center;
+
+
+
+}
+
+.overlay__text--2 {
+    background-color: #ed5151;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    top: 100%;
+
+
+
+}
+
+.overlay__text--3 {
+    background-color: #17a3a6;
+    justify-content: center;
+    top: 0;
+    right: calc(0px - 100%);
+}
+
+.galery__overlay:hover .overlay__text--1 {
+    left: 0;
+}
+
+.galery__overlay:hover .overlay__text--2 {
+    top: calc(100% - 50%);
+}
+
+.galery__overlay:hover .overlay__text--3 {
+    right: 0;
+}

@@ -1,0 +1,159 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+}
+
+.layout {
+    background-color: #f5e8da;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__top {
+    background-color: #5ed5eb;
+    color: white;
+    width: 1000px;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 4rem;
+    margin-bottom: 3rem;
+}
+
+.top__text {
+    font-weight: 400;
+}
+
+.top__ages {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.layout__bottom {
+    background-color: white;
+    width: 1000px;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 4rem;
+    margin-bottom: 3rem;
+}
+
+.graphic__ranges {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    color: #a2a6a3;
+    font-size: 3rem;
+    margin: 150px 0 10px 0;
+
+
+
+}
+
+
+.range {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+
+
+}
+
+.ages__box--1 {
+    background-color: #596cc2;
+    height: 150px;
+    width: 80px;
+    border-radius: 1rem;
+
+}
+
+.ages__box--2 {
+    background-color: #5ed5eb;
+    height: 80px;
+    width: 80px;
+    border-radius: 1rem;
+
+}
+
+.ages__box--3 {
+    background-color: #5ed5eb;
+    height: 30px;
+    width: 80px;
+    border-radius: 1rem;
+
+}
+
+.ages__box--4 {
+    background-color: #5ed5eb;
+    height: 25px;
+    width: 80px;
+    border-radius: 1rem;
+
+}
+
+.ages__box--5 {
+    background-color: #5ed5eb;
+    height: 90px;
+    width: 80px;
+    border-radius: 1rem;
+
+}
+
+.ages__box--6 {
+    background-color: #5ed5eb;
+    height: 30px;
+    width: 80px;
+    border-radius: 1rem;
+
+}
+
+.ages__box--7 {
+    background-color: #5ed5eb;
+    height: 150px;
+    width: 80px;
+    border-radius: 1rem;
+
+}
+
+.ages__numbers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.bottom__range {
+
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 90px;
+
+    border: 1px solid rgba(128, 128, 128, 0.629);
+    border-radius: 4rem;
+
+}
+
+.range__text {
+    font-weight: 600;
+    color: #a2a6a3;
+}
+
+.range__ages {
+    font-size: 6rem;
+    font-weight: 900;
+}
