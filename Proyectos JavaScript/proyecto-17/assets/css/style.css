@@ -1,0 +1,85 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #E8EFFA;
+    padding: 3rem;
+}
+
+.layout {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.layout__card {
+    width: 30rem;
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card__header {
+    border-bottom: 1px solid #0b58ca;
+}
+
+.header__author {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+    padding: 1rem 1.5rem;
+}
+
+.card__content {
+    padding: 1.5rem;
+}
+
+.content__title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.content__description {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.content__btn {
+    margin-left: 15px;
+    border: 1px solid #0b58ca;
+    background-color: transparent;
+    width: 90%;
+    padding: 1rem;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 2.5rem;
+    transition: all 300ms ease;
+}
+
+
+/* Estilos para cuando se activa */
+.layout__card--on {
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 10px 20px;
+}
+
+.card__header--on {
+    background-color: #0b58ca;
+}
+
+.content__btn--on {
+    background-color: white;
+    color: #0b58ca;
+}

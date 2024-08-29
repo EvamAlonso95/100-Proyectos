@@ -1,0 +1,147 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1.5rem;
+    background-color: #e8effa;
+    font-family: "Montserrat";
+}
+
+.container {
+    width: 25%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #4d536b;
+}
+
+.form__input {
+    border: none;
+    height: 2rem;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.form__input::placeholder {
+    text-indent: 0.5rem;
+    font-weight: bold;
+}
+
+
+
+.form__input--textarea {
+    height: 6rem;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 10rem;
+    max-height: 15rem;
+    text-indent: 0.5rem;
+    line-height: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #757575;
+}
+
+.form__input--btn {
+    width: 100%;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+    border: 1px solid #368bd6;
+    background-color: #e8effa;
+    color: #4d536b;
+    font-weight: bold;
+}
+
+.form__input--btn:hover {
+    background-color: #368bd6;
+    color: white;
+    font-weight: bold;
+}
+
+/* Tarjetas */
+
+.container__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.layout__card {
+    width: 25%;
+    height: 20rem;
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card__header {
+    border-bottom: 1px solid #0b58ca;
+}
+
+.header__author {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+
+}
+
+.card__content {
+    padding: 1rem;
+}
+
+.content__title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.content__description {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.content__btn {
+    border: 1px solid #0b58ca;
+    background-color: transparent;
+    width: 90%;
+    padding: 1rem;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    color: white;
+    margin-bottom: 2.5rem;
+    transition: all 300ms ease;
+}
+
+.content__btn:hover {
+    border: 1px solid #0D6EFD;
+    background-color: #0b58ca;
+}

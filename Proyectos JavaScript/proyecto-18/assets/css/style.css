@@ -1,0 +1,67 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 10rem;
+    font-family: "Montserrat";
+
+    background-color: #e8effa;
+}
+
+.layout__main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main__chrono {
+    font-weight: bold;
+    padding: 2rem;
+    width: 36rem;
+}
+
+.main__btns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+
+}
+
+.btn__start {
+    cursor: pointer;
+    background-color: #ed3e3e;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    width: 10rem;
+    transition: all 300ms ease;
+}
+
+.btn__start:hover {
+    background: lightgreen;
+}
+
+.btn__stop {
+    background-color: #cccccc;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    width: 10rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.btn__stop:hover {
+    background: rgb(81, 232, 230);
+}
