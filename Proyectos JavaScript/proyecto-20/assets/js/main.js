@@ -1,12 +1,17 @@
+window.addEventListener("DOMContentLoaded", (event) => {
+    let contendedor = document.querySelector('.content')
 
-let ancho = window.screen.width,
-    alto = window.screen.height,
-    url = window.location.href,
-    contenedor = document.querySelector('.content');
+    let now = new Date();
 
-window.open("http://www.victorroblesweb.es/ruta");
+    let actualDate = now.getDate() + "/" + (now.getMonth() + 1) + "/" + now.getFullYear();
 
+    let actualTime = now.getHours() + ":" + now.getMinutes();
 
-contenedor.innerHTML += `
-La pantalla tiene un ancho de ${ancho} píxeles y un alto de  ${alto} píxeles y te encuentras en la siguiente dirección: ${url}
+    contendedor.innerHTML += `
+        <p class="date">${actualDate}</p>
+        <p class="time">${actualTime}</p>
 `
+
+
+
+})

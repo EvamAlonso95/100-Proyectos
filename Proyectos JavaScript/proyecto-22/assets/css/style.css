@@ -1,0 +1,53 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Montserrat";
+    font-size: 1.6rem;
+    background-color: #e8effa;
+
+
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.layout__main {
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.main__input {
+    width: 100%;
+    height: 4rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    text-indent: 1rem;
+}
+
+.main__text {
+    text-align: justify;
+    line-height: 2.8rem;
+}
+
+.text__search {
+
+    background-color: #cbb8f5;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}

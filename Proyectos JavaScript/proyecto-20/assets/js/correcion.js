@@ -1,14 +1,31 @@
-window.addEventListener("DOMContentLoaded", () => {
-    let contenedor = document.querySelector('.content');
+window.addEventListener("DOMContentLoaded", (event) => {
 
-    let ancho = window.screen.width,
-        alto = window.screen.height,
-        url = window.location.href;
+    let dateDom = document.querySelector(".date");
+    let hourDom = document.querySelector(".time");
 
-    window.open("http://www.victorroblesweb.es/ruta");
+    let myDate = () => {
+        let date = new Date();
+        let day = date.getDay();
+        let month = date.getMonth() + 1;
+        let year = date.getFullYear();
+        let hour = date.getHours();
+        let minutes = date.getMinutes();
+
+        if (day < 10) day = `0${day}`;
+        if (month < 10) month = `0${month}`;
+        if (hour < 10) hour = `0${hour}`;
+        if (minutes < 10) minutes = `0${minutes}`;
 
 
-    contenedor.innerHTML += `
-    La pantalla tiene un ancho de ${ancho} y un alto de  ${alto} y te encuentras en la siguiente dirección: ${url}
-    `
+
+        dateDom.innerHTML = `${day} /${month}/${year} `;
+        hourDom.innerHTML = `${hour} : ${minutes} `
+    };
+
+
+    setInterval(() => {
+        myDate();
+
+    }, 1000)
+
 })
