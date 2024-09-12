@@ -1,0 +1,74 @@
+html {
+    font-size: 10px;
+    height: 100%;
+}
+
+body {
+    font-family: "Montserrat";
+    overflow: hidden;
+    font-size: 1.6rem;
+    height: 100%;
+}
+
+.layout {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.layout__main {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__background {
+    content: "";
+    width: calc(100% + 4rem);
+    height: calc(100% + 4rem);
+    position: absolute;
+    z-index: -1;
+
+    background-image: url(/proyecto-28/assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(3rem);
+}
+
+.load__number {
+    font-size: 7rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+}
+
+.load__btn {
+    padding: 1rem;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #2E9955;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.load__btn:hover {
+    background-color: #172d1f;
+}
+
+.load__complete {
+    display: none;
+    color: #2E9955;
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-shadow: 0 0 0.5rem black;
+}
